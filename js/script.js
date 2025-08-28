@@ -34,4 +34,3 @@ document.getElementById("copyClick").addEventListener("click", function(e) {
   navigator.clipboard.writeText(text);
   alert("Copied service number:  "+ text);
 });
-
